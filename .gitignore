@@ -37,4 +37,4 @@ next-env.d.ts
 
 # HTTP
 
-.rest
+/rest
