@@ -16,7 +16,6 @@ export const searchCar = async (q) => {
       .or("description")
       .matches(q)
       .return.all();
-
     return {
       code: 200,
       element: cars,
