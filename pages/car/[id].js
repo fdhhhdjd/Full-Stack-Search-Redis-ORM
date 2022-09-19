@@ -1,9 +1,9 @@
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { getData } from "../../utils/fetchData";
 
 const carItem = (props) => {
-  const [car] = useState(props.car);
+  let car = props?.car;
   return (
     <>
       <Link href={`/`}>
